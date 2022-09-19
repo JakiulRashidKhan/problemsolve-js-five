@@ -50,9 +50,9 @@ function picnicBudget(person){
     }
     else 
     {
-        const bill3 = person - 200;
+        const bill2 = person - 200;
 
-        return (100 * 5000) + ( 100 * 4000)+(bill3*3000);
+        return (100 * 5000) + ( 100 * 4000)+(bill2*3000);
     }
 }
 console.log(picnicBudget(50));
